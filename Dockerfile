@@ -11,15 +11,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Installing dependencies and cleanup in a single RUN to reduce image layers
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
-    unzip \
-    git \
-    build-essential \
     libssl-dev \
     libffi-dev \
     python3 \
     python3-venv \
-    python3-dev \
-    python3-pip \
     jq && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
