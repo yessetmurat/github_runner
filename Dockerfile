@@ -1,5 +1,6 @@
 # Using specific version for reproducibility
 FROM ubuntu:20.04
+LABEL org.opencontainers.image.source=https://github.com/yessetmurat/github_runner
 
 ARG RUNNER_VERSION
 ARG RUNNER_ARCH
