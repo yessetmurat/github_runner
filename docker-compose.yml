@@ -1,8 +1,0 @@
-version: '3.8'
-
-services:
-  github_runner:
-    image: ghcr.io/yessetmurat/github_runner:latest
-    env_file:
-      - .env
-    restart: unless-stopped

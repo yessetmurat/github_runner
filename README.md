@@ -70,7 +70,3 @@ docker logs <container-id>
 - The `latest` tag is used as a convention, but you can tag the image with any name you prefer.
 
 Refer to the official GitHub Actions documentation for more detailed information on self-hosted runners.
-
----
-
-Make sure to provide all necessary information and adjust the commands to fit your specific use case or any additional configurations that your Docker image might require.
