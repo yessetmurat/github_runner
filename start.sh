@@ -8,7 +8,7 @@ fi
 
 # Generate a unique runner name
 RUNNER_SUFFIX=$(cat /dev/urandom | tr -dc 'a-z0-9' | fold -w 5 | head -n 1)
-RUNNER_NAME="dockerNode-$RUNNER_SUFFIX"
+RUNNER_NAME="containerNode-$RUNNER_SUFFIX"
 
 # Fetch the registration token from GitHub's API
 REG_TOKEN=$(curl -sX POST -H "Accept: application/vnd.github.v3+json" \
